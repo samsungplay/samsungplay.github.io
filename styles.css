@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+.flexColumn {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Amatic SC", serif;
+}
+body {
+  margin: 1rem;
+  padding: 1.5rem;
+  font-family: "Bree Serif", serif;
+}
+
+body {
+  background-color: skyblue;
+}
+
+.flexRow {
+  display: flex;
+  gap: 16px;
+}
+
+.gridLayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.subheading,
+dt {
+  color: #0e36f9;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.hyperlink {
+  font-size: 24px;
+  background-color: grey;
+  border-radius: 2px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.hyperlink:visited {
+  color: orange;
+}
+
+.hyperlink:hover {
+  color: darkorange;
+}

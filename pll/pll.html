@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <title>PLL</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="../styles.css" />
+
+  <body>
+    <h1>3x3 Rubik's Cube Tutorial</h1>
+    <h3 style="font-size: 24px; color: gray">Stages of beginner's method</h3>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../cross/cross.html">Cross</a>
+      <a href="../firstlayer/firstlayer.html">First Layer</a>
+      <a href="../secondlayer/secondlayer.html">Second Layer</a>
+      <a href="../oll/oll.html">OLL</a>
+      <a style="font-size: 20px" href="../pll/pll.html">PLL</a>
+    </nav>
+
+    <dl>
+      <dt>Goal</dt>
+      <dd>
+        In this last step of the cube, the ultimate goal is to complete the
+        entire the cube ( in technical terms, this is called PLL, a shorthand
+        for permute last layer. ).
+
+        <img
+          src="../cube_complete.jpg"
+          alt="Image of a solved cube."
+          style="width: 50%; height: auto"
+        />
+      </dd>
+
+      <dt>Complete the headlights</dt>
+
+      <dd>
+        <p>
+          The first substep is to complete the corners or make all four sides
+          have “headlights”. In order to do so, you have to first find
+          “headlights” of the cube that looks something like this:
+        </p>
+        <img
+          alt="Image of me holding a cube with up to OLL stage completed. and with my two fingers pointing at the matching colors of two corners forming a shaped of 'headlights' in its PLL stage"
+          src="../pll_headlights.jpg"
+          style="width: 50%; height: auto; display: block"
+        />
+        <p>
+          It does not matter which color is in the middle or which color the
+          headlight is, it just has to form a headlight, with the colors of two
+          corners facing towards you having the same color.
+        </p>
+        <p>
+          Depending on the number of headlights, you can end up in different
+          cases:
+        </p>
+      </dd>
+
+      <dt>Case 1). 0 Headlight (no headlights on all four sides)</dt>
+
+      <dd>
+        <video
+          controls
+          aria-label="Video demonstrating the algorithm to execute during PLL stage of solving a cube with CFOP beginner's method, when there are no headlights on all four sides"
+          src="../pll_no_headlights.mp4"
+          style="width: 50%; height: auto"
+        ></video>
+      </dd>
+
+      <dt>Case 2). 1 Headlight (headlight on one side only)</dt>
+
+      <dd>
+        <video
+          controls
+          aria-label="Video demonstrating the algorithm to execute during PLL stage of solving a cube with CFOP beginner's method, when there is only 1 headlight on one side"
+          src="../pll_one_headlight.mp4"
+          style="width: 50%; height: auto"
+        ></video>
+      </dd>
+
+      <dt>Case 3). 4 Headlights (headlights on all four sides)</dt>
+
+      <dd>=> You are lucky, you can skip this substep.</dd>
+
+      <dt>Complete the edges/rest of the cube</dt>
+      <dd>
+        The final substep is to complete the rest of the cube. Once you have
+        completed the headlights, there are only 4 cases you can encounter. For
+        each of these 4 cases, there is a corresponding algorithm with which you
+        can solve the cube. Examine the cube, then execute the corresponding
+        algorithm.
+      </dd>
+
+      <dt>Case 1). “Side stickers swapped”</dt>
+
+      <dd>
+        <video
+          controls
+          aria-label="Video demonstrating the algorithm to execute during PLL stage of solving a cube with CFOP beginner's method, when the corners are already completed and edges needs to be swapped in Z shape"
+          src="../side_stickers_swapped.mp4"
+          style="width: 50%; height: auto"
+        ></video>
+      </dd>
+
+      <dt>Case 2). “Opposite stickers swapped”</dt>
+
+      <dd>
+        <video
+          controls
+          aria-label="Video demonstrating the algorithm to execute during PLL stage of solving a cube with CFOP beginner's method, when the corners are already completed and edges needs to be swapped in + shape"
+          src="../opposite_stickers_swapped.mp4"
+          style="width: 50%; height: auto"
+        ></video>
+      </dd>
+
+      <dt>Case 3). “1 bar completed + Clockwise swapped”</dt>
+
+      <dd>
+        <video
+          controls
+          aria-label="Video demonstrating the algorithm to execute during PLL stage of solving a cube with CFOP beginner's method, when the corners and 1 edge are already completed and 3 remaining edges needs to be swapped in clockwise direction"
+          src="../clockwise_swapped.mp4"
+          style="width: 50%; height: auto"
+        ></video>
+      </dd>
+
+      <dt>Case 4). “1 bar completed + Counter-clockwise swapped”</dt>
+
+      <dd>
+        <video
+          controls
+          aria-label="Video demonstrating the algorithm to execute during PLL stage of solving a cube with CFOP beginner's method, when the corners and 1 edge are already completed and 3 remaining edges needs to be swapped in counter-clockwise direction"
+          src="../counterclockwise_swapped.mp4"
+          style="width: 50%; height: auto"
+        ></video>
+      </dd>
+    </dl>
+    <p>
+      Congratulations. Now you have solved your first cube! While there seems to
+      be a lot of algorithms to memorize, with enough practice you will be able
+      to memorize them all. In fact, since this algorithm is based on the CFOP
+      method, if you have mastered the concepts here you will be able to
+      naturally progress towards the full CFOP method. If you are interested in
+      further learning, refer to the following article to learn more about the
+      full CFOP method:
+
+      <a
+        href="https://jperm.net/3x3/cfop"
+        style="display: block"
+        target="_blank"
+        class="hyperlink"
+        >Click here to learn more about advanced CFOP method</a
+      >
+    </p>
+  </body>
+</html>
