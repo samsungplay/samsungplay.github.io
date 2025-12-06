@@ -1,4 +1,4 @@
-import { GrObject } from "../libs/framework/GrObject.js";
+import { GrObject } from "./libs/framework/GrObject.js";
 
 // this class has been generated with the help of copilot
 export class GrTickingObject extends GrObject {

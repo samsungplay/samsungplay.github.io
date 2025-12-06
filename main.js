@@ -1,7 +1,7 @@
 // CS559 2025 Workbook
 
-import { GrWorld } from "../libs/framework/GrWorld.js";
-import * as T from "../libs/threeJS/build/three.module.js";
+import { GrWorld } from "./libs/framework/GrWorld.js";
+import * as T from "./libs/threeJS/build/three.module.js";
 
 import {
   CHUNK_SIZE,
@@ -27,7 +27,7 @@ import { atlasTexture } from "./block_factory.js";
 import { BlockPicker } from "./ui.js";
 
 // Need GrObject for GrChunkManager
-import { GrObject } from "../libs/framework/GrObject.js";
+import { GrObject } from "./libs/framework/GrObject.js";
 
 // -------------------------------------------------------
 // Loading screen helpers

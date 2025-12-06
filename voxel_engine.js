@@ -1,5 +1,5 @@
-import * as T from "../libs/threeJS/build/three.module.js";
-import { GrObject } from "../libs/framework/GrObject.js";
+import * as T from "./libs/threeJS/build/three.module.js";
+import { GrObject } from "./libs/framework/GrObject.js";
 import { atlasTexture, getBlockData } from "./block_factory.js";
 import { BLOCK } from "./block_registry.js";
 import { GrPig, GrCreeper, GrSheep } from "./entities.js";

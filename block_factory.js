@@ -1,4 +1,4 @@
-import * as T from "../libs/threeJS/build/three.module.js";
+import * as T from "./libs/threeJS/build/three.module.js";
 
 const _BLOCK_DATA = new Map();
 

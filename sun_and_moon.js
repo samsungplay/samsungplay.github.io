@@ -1,5 +1,5 @@
-import * as T from "../libs/threeJS/build/three.module.js";
-import { GrObject } from "../libs/framework/GrObject.js";
+import * as T from "./libs/threeJS/build/three.module.js";
+import { GrObject } from "./libs/framework/GrObject.js";
 
 // =======================
 //  SUN SHADERS (Unchanged - unused in prototype)

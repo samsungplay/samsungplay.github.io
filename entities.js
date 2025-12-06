@@ -1,6 +1,6 @@
-import { FBXLoader } from "../libs/threeJS/examples/jsm/loaders/FBXLoader.js";
-import * as T from "../libs/threeJS/build/three.module.js";
-import { GrObject } from "../libs/framework/GrObject.js";
+import { FBXLoader } from "./libs/threeJS/examples/jsm/loaders/FBXLoader.js";
+import * as T from "./libs/threeJS/build/three.module.js";
+import { GrObject } from "./libs/framework/GrObject.js";
 import { BLOCK } from "./block_registry.js";
 import { CHUNK_SIZE, Y_MAX, Y_MIN } from "./voxel_engine.js";
 import { GrTickingObject } from "./base.js";

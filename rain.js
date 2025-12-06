@@ -1,5 +1,5 @@
-import * as T from "../libs/threeJS/build/three.module.js";
-import { GrObject } from "../libs/framework/GrObject.js";
+import * as T from "./libs/threeJS/build/three.module.js";
+import { GrObject } from "./libs/framework/GrObject.js";
 import { GrTickingObject } from "./base.js";
 
 // this class has been generated with the help of copilot

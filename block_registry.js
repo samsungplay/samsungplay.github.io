@@ -5,7 +5,7 @@ import {
   getBlockData,
 } from "./block_factory.js";
 
-import * as T from "../libs/threeJS/build/three.module.js";
+import * as T from "./libs/threeJS/build/three.module.js";
 
 // list all available blocks here
 export const BLOCK = {
