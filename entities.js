@@ -846,7 +846,7 @@ export class GrEntity extends GrTickingObject {
       if (this._isLiquidAt(fx, yy, fz)) return yy + 1;
       if (this._isSolidAt(fx, yy, fz)) return yy + 1;
     }
-    return -Infinity;
+    return -10000;
   }
   _hasSupportAt(wx, feetY, wz) {
     const y = feetY - (this.footClear + 0.06);
